@@ -6,7 +6,7 @@
 /*   By: gstarvin <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/24 17:53:57 by gstarvin          #+#    #+#             */
-/*   Updated: 2019/09/25 15:43:18 by gstarvin         ###   ########.fr       */
+/*   Updated: 2019/09/25 15:47:15 by gstarvin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 #include "../Get_next_line/get_next_line.h"
 
 //fills an array with termino
-
+//вроде работает, но сегфолт дает в конце возможно из-за мэйна
 int		get_numbers(char *s)
 {
 	int i;
@@ -28,7 +28,7 @@ int		get_numbers(char *s)
 	}
 	return (i);
 }
-
+//заполняем массив нулями
 char	**readtermino(int fd)
 {
 	char 	**termino;
@@ -49,7 +49,7 @@ char	**readtermino(int fd)
 		termino = NULL;
 	return (termino);
 }
-
+//заполняем массив цифрами и выводим их сумму
 int		checktermino(char **tab)
 {
 	int y;
