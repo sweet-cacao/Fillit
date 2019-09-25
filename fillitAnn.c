@@ -6,12 +6,12 @@
 /*   By: gstarvin <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/24 17:53:57 by gstarvin          #+#    #+#             */
-/*   Updated: 2019/09/25 15:47:15 by gstarvin         ###   ########.fr       */
+/*   Updated: 2019/09/25 16:46:24 by gstarvin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
-#include "../Get_next_line/get_next_line.h"
+#include "Get_next_line/get_next_line.h"
 
 //fills an array with termino
 //вроде работает, но сегфолт дает в конце возможно из-за мэйна
@@ -49,6 +49,9 @@ char	**readtermino(int fd)
 		termino = NULL;
 	return (termino);
 }
+
+
+
 //заполняем массив цифрами и выводим их сумму
 int		checktermino(char **tab)
 {
