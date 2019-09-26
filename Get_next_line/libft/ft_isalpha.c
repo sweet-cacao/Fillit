@@ -1,23 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   test.c                                             :+:      :+:    :+:   */
+/*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bconchit <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: gstarvin <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/09/24 18:49:19 by bconchit          #+#    #+#             */
-/*   Updated: 2019/09/24 18:52:43 by bconchit         ###   ########.fr       */
+/*   Created: 2019/09/06 10:40:13 by gstarvin          #+#    #+#             */
+/*   Updated: 2019/09/06 10:42:33 by gstarvin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "libft.h"
 
-int		main(void)
+int		ft_isalpha(int c)
 {
-	char	*str;
-
-	str = "1234\n";
-
-	printf("%s", str);
-	return (0);
+	if ((c >= 'a' && c <= 'z') ||
+		(c >= 'A' && c <= 'Z'))
+		return (1);
+	else
+		return (0);
 }
