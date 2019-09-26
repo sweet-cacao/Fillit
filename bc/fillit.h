@@ -6,7 +6,7 @@
 /*   By: bconchit <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/25 23:31:06 by bconchit          #+#    #+#             */
-/*   Updated: 2019/09/26 07:36:56 by bconchit         ###   ########.fr       */
+/*   Updated: 2019/09/26 07:50:06 by bconchit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,9 +19,9 @@ typedef unsigned short	t_byte4;
 
 typedef struct			s_map
 {
-	int				dimension;
-	int				width;
-	unsigned short	*data;
+	int			dimension;
+	int			width;
+	t_byte4		*data;
 }						t_map;
 
 t_map					*map_create(int size);
