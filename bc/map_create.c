@@ -6,7 +6,7 @@
 /*   By: bconchit <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/25 23:30:32 by bconchit          #+#    #+#             */
-/*   Updated: 2019/09/26 07:52:25 by bconchit         ###   ########.fr       */
+/*   Updated: 2019/09/26 08:08:54 by bconchit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,7 @@ t_map			*map_create(int dimension)
 	if (map)
 	{
 		map->dimension = dimension;
-		map->width = 1 + (dimension + 2) / 4;
+		map->width = 1 + (dimension + 3) / 4;
 		map->data = (t_byte4 *)ft_memalloc(
 			map->width * map->width * sizeof(t_byte4));
 		map_create_brick(map);
