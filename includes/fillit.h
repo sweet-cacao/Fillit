@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   fillit.h                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bconchit <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: bconchit <bconchit@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/29 05:10:57 by bconchit          #+#    #+#             */
-/*   Updated: 2019/09/29 10:06:00 by bconchit         ###   ########.fr       */
+/*   Updated: 2019/09/29 12:33:01 by bconchit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,16 +19,20 @@
 typedef struct	s_tetrim
 {
 	struct s_tetrim		*next;
+	int					index;
 	int					block[4];
 	int					x0;
 	int					y0;
 	int					x1;
 	int					y1;
+	int					x;
+	int					y;
 }				t_tetrim;
 
 typedef struct	s_board
 {
 	int					size;
+	char				*map;
 }				t_board;
 
 t_tetrim		*tetrim_create(char *text);
@@ -39,9 +43,8 @@ int				tetrim_valid(t_tetrim *self);
 
 t_board			*board_create(int size);
 void			board_destroy(t_board **addr);
-int				board_check(t_board *self, t_tetrim *tetrim, int x, int y);
-void			board_insert(t_board *self, t_tetrim *tetrim, int index);
-void			board_remove(t_board *self, t_tetrim *tetrim);
+int				board_check(t_board *self, t_tetrim *tetrim);
+void			board_paint(t_board *self, t_tetrim *tetrim, char value);
 int				board_solve(t_board *self, t_tetrim *tetrim);
 void			board_print(t_board *self);
 
