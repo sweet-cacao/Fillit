@@ -6,7 +6,7 @@
 /*   By: bconchit <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/29 05:10:57 by bconchit          #+#    #+#             */
-/*   Updated: 2019/09/29 09:32:21 by bconchit         ###   ########.fr       */
+/*   Updated: 2019/09/29 09:52:20 by bconchit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,6 @@ void			tetrim_destroy(t_tetrim **addr);
 int				tetrim_text(t_tetrim *self, char *text);
 void			tetrim_area(t_tetrim *self);
 int				tetrim_valid(t_tetrim *self);
-
 
 t_board			*board_create(int size);
 void			board_destroy(t_board **addr);
