@@ -6,7 +6,7 @@
 /*   By: bconchit <bconchit@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/29 05:10:57 by bconchit          #+#    #+#             */
-/*   Updated: 2019/09/29 12:33:01 by bconchit         ###   ########.fr       */
+/*   Updated: 2019/09/29 12:35:58 by bconchit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,6 @@
 typedef struct	s_tetrim
 {
 	struct s_tetrim		*next;
-	int					index;
 	int					block[4];
 	int					x0;
 	int					y0;
