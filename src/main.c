@@ -8,6 +8,6 @@ int		main(int argc, char **argv)
 		ft_putstr("error\n");
 	}
 	else
-		ft_putstr("usage: fillit tetriminos_file\n");
+		ft_putstr("usage: fillit file\n");
 	return (0);
 }
