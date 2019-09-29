@@ -6,16 +6,16 @@
 /*   By: bconchit <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/29 05:09:30 by bconchit          #+#    #+#             */
-/*   Updated: 2019/09/29 05:33:16 by bconchit         ###   ########.fr       */
+/*   Updated: 2019/09/29 06:25:49 by bconchit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "fillit.h"
 
-static int		tetrim_text(t_tetrim *self, char *text)
+static int			tetrim_text(t_tetrim *self, char *text)
 {
-	int				count;
-	int				index;
+	int		count;
+	int		index;
 
 	count = 0;
 	index = 0;
@@ -38,7 +38,7 @@ static int		tetrim_text(t_tetrim *self, char *text)
 	return (count == 4);
 }
 
-static void		tetrim_area(t_tetrim *self)
+static void			tetrim_area(t_tetrim *self)
 {
 	int		x;
 	int		y;
@@ -61,13 +61,13 @@ static void		tetrim_area(t_tetrim *self)
 	}
 }
 
-static int		tetrim_valid(t_tetrim *self)
+static int			tetrim_valid(t_tetrim *self)
 {
 	// TODO
 	return (0);
 }
 
-t_tetrim		*tetrim_create(char *text)
+static t_tetrim		*tetrim_create(char *text)
 {
 	t_tetrim	*self;
 
@@ -83,5 +83,32 @@ t_tetrim		*tetrim_create(char *text)
 	}
 	if (self)
 		ft_memdel((void **)self);
+	return (NULL);
+}
+
+t_tetrim			*tetrim_read(int fd)
+{
+	t_tetrim	*self;
+	char		buff[20];
+	int			ret;
+
+	ret = read(fd, buff, 20);
+	if (ret == 20)
+	{
+		self = tetrim_create(buff);
+		if (self)
+		{
+			ret = read(fd, buff, 1);
+			if (ret == 0)
+				return (self);
+			if (ret == 1 && buff[0] == '\n')
+			{
+				self->next = tetrim_read(fd);
+				if (self->next)
+					return (self);
+			}
+			ft_memdel((void **)&self);
+		}
+	}
 	return (NULL);
 }
