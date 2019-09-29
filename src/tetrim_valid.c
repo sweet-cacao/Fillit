@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   tetrim_valid.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bconchit <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: bconchit <bconchit@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/29 08:55:08 by bconchit          #+#    #+#             */
-/*   Updated: 2019/09/29 09:40:06 by bconchit         ###   ########.fr       */
+/*   Updated: 2019/09/29 15:34:12 by bconchit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,5 +15,7 @@
 int		tetrim_valid(t_tetrim *self)
 {
 	// TODO
-	return (1);
+	if (self)
+		return (1);
+	return (0);
 }

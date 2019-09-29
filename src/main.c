@@ -6,7 +6,7 @@
 /*   By: bconchit <bconchit@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/29 12:36:38 by bconchit          #+#    #+#             */
-/*   Updated: 2019/09/29 13:57:05 by bconchit         ###   ########.fr       */
+/*   Updated: 2019/09/29 15:33:44 by bconchit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,9 @@ static t_board	*solve(t_tetrim *tetrim)
 {
 	t_board		*board;
 
-	board = board_create(10);
+	board = NULL;
+	if (tetrim)
+		board = board_create(10);
 
 	return (board);
 }

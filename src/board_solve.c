@@ -6,7 +6,7 @@
 /*   By: bconchit <bconchit@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/29 08:00:56 by bconchit          #+#    #+#             */
-/*   Updated: 2019/09/29 12:33:24 by bconchit         ###   ########.fr       */
+/*   Updated: 2019/09/29 15:32:28 by bconchit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,10 +24,10 @@ static int	recursive(t_board *self, t_tetrim *tetrim, int index)
 		{
 			if (board_check(self, tetrim))
 			{
-				board_put(self, tetrim, 'A' + index);
+				board_paint(self, tetrim, 'A' + index);
 				if (recursive(self, tetrim->next, index + 1))
 					return (1);
-				board_put(self, tetrim, '.');
+				board_paint(self, tetrim, '.');
 			}
 			tetrim->x++;
 		}
