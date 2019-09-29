@@ -6,7 +6,7 @@
 /*   By: bconchit <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/29 05:09:30 by bconchit          #+#    #+#             */
-/*   Updated: 2019/09/29 06:25:49 by bconchit         ###   ########.fr       */
+/*   Updated: 2019/09/29 06:30:28 by bconchit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -82,7 +82,7 @@ static t_tetrim		*tetrim_create(char *text)
 		}
 	}
 	if (self)
-		ft_memdel((void **)self);
+		ft_memdel((void **)&self);
 	return (NULL);
 }
 
