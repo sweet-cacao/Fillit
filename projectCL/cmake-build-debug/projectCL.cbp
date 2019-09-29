@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="projectCL"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/sweetcacao/projectCL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/sweetcacao/projectCL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="projectCL">
+				<Option output="/home/sweetcacao/projectCL/cmake-build-debug/projectCL" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sweetcacao/projectCL/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sweetcacao/projectCL/."/>
+					<Add directory="/home/sweetcacao/projectCL/Get_next_line"/>
+					<Add directory="/home/sweetcacao/projectCL/Get_next_line/libft"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 projectCL"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="projectCL/fast">
+				<Option output="/home/sweetcacao/projectCL/cmake-build-debug/projectCL" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sweetcacao/projectCL/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sweetcacao/projectCL/."/>
+					<Add directory="/home/sweetcacao/projectCL/Get_next_line"/>
+					<Add directory="/home/sweetcacao/projectCL/Get_next_line/libft"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 projectCL/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/sweetcacao/projectCL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/get_next_line.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/get_next_line.h">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_atoi.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_bzero.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_isalnum.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_isalpha.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_isascii.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_isdigit.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_isprint.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_iswspace.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_itoa.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_lstadd.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_lstdel.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_lstdelone.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_lstiter.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_lstmap.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_lstnew.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_memalloc.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_memccpy.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_memchr.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_memcmp.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_memcpy.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_memdel.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_memmove.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_memset.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_putchar.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_putchar_fd.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_putendl.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_putendl_fd.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_putnbr.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_putnbr_fd.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_putstr.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_putstr_fd.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strcat.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strchr.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strclr.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strcmp.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strcpy.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strdel.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strdup.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strequ.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_striter.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_striteri.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strjoin.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strlcat.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strlen.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strmap.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strmapi.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strncat.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strncmp.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strncpy.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strnequ.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strnew.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strnstr.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strrchr.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strsplit.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strstr.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strsub.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strtrim.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_tolower.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_toupper.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/libft.h">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/check_form.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/check_termino.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/detect_error.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/detect_termino.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/get_struct.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/header.h">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/king_size_func_fuck.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/main.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/recursive_size.c">
+			<Option target="projectCL"/>
+		</Unit>
+		<Unit filename="/home/sweetcacao/projectCL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
