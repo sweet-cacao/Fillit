@@ -1,4 +1,4 @@
 int		main(int argc, char **argv)
 {
-	retunr (0);
+	return (0);
 }
