@@ -6,7 +6,7 @@
 /*   By: bconchit <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/29 05:10:57 by bconchit          #+#    #+#             */
-/*   Updated: 2019/09/29 09:52:20 by bconchit         ###   ########.fr       */
+/*   Updated: 2019/09/29 10:06:00 by bconchit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,10 +39,10 @@ int				tetrim_valid(t_tetrim *self);
 
 t_board			*board_create(int size);
 void			board_destroy(t_board **addr);
-int				board_check(t_board *board, t_tetrim *tetrim, int x, int y);
-void			board_insert(t_board *board, t_tetrim *tetrim, int index);
-void			board_remove(t_board *board, t_tetrim *tetrim);
-int				board_solve(t_board *board, t_tetrim *tetrim);
-void			board_print(t_board *board);
+int				board_check(t_board *self, t_tetrim *tetrim, int x, int y);
+void			board_insert(t_board *self, t_tetrim *tetrim, int index);
+void			board_remove(t_board *self, t_tetrim *tetrim);
+int				board_solve(t_board *self, t_tetrim *tetrim);
+void			board_print(t_board *self);
 
 #endif

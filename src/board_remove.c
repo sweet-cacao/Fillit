@@ -6,13 +6,13 @@
 /*   By: bconchit <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/29 09:34:38 by bconchit          #+#    #+#             */
-/*   Updated: 2019/09/29 09:34:40 by bconchit         ###   ########.fr       */
+/*   Updated: 2019/09/29 10:06:11 by bconchit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "fillit.h"
 
-void	board_remove(t_board *board, t_tetrim *tetrim)
+void	board_remove(t_board *self, t_tetrim *tetrim)
 {
 
 }
