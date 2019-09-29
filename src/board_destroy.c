@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   board_destroy.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bconchit <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: bconchit <bconchit@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/29 08:17:44 by bconchit          #+#    #+#             */
-/*   Updated: 2019/09/29 09:31:32 by bconchit         ###   ########.fr       */
+/*   Updated: 2019/09/29 17:27:51 by bconchit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,9 @@
 
 void	board_destroy(t_board **addr)
 {
-	ft_memdel((void **)addr);
+	if (addr && *addr)
+	{
+		ft_memdel((void **)&(*addr)->map);
+		ft_memdel((void **)addr);
+	}
 }

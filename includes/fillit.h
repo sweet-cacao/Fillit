@@ -6,7 +6,7 @@
 /*   By: bconchit <bconchit@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/29 05:10:57 by bconchit          #+#    #+#             */
-/*   Updated: 2019/09/29 15:56:30 by bconchit         ###   ########.fr       */
+/*   Updated: 2019/09/29 17:19:37 by bconchit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,7 @@
 # include "libft.h"
 
 # define MAX_TET 26
+# define MAX_MAP 10
 
 typedef struct	s_tetrim
 {
