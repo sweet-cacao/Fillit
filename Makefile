@@ -6,14 +6,15 @@
 #    By: bconchit <bconchit@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/09/29 14:08:58 by bconchit          #+#    #+#              #
-#    Updated: 2019/09/29 15:32:04 by bconchit         ###   ########.fr        #
+#    Updated: 2019/09/29 16:00:53 by bconchit         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = fillit
 SRCS = board_check.c board_create.c board_destroy.c board_paint.c \
-		board_print.c board_solve.c main.c tetrim_area.c tetrim_create.c \
-		tetrim_destroy.c tetrim_readfile.c tetrim_text.c tetrim_valid.c \
+		board_print.c board_solve.c main.c tetrim_area.c tetrim_count.c \
+		tetrim_create.c tetrim_destroy.c tetrim_readfile.c tetrim_text.c \
+		tetrim_valid.c \
 
 OBJS = $(SRCS:%.c=%.o)
 

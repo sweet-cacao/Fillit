@@ -6,22 +6,35 @@
 /*   By: bconchit <bconchit@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/29 12:36:38 by bconchit          #+#    #+#             */
-/*   Updated: 2019/09/29 15:33:44 by bconchit         ###   ########.fr       */
+/*   Updated: 2019/09/29 16:00:24 by bconchit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "fillit.h"
 
-
 static t_board	*solve(t_tetrim *tetrim)
 {
 	t_board		*board;
+	int			count;
+	int			size;
 
-	board = NULL;
-	if (tetrim)
-		board = board_create(10);
-
-	return (board);
+	count = tetrim_count(tetrim);
+	if (count > 0 && count <= MAX_TET)
+	{
+		size = 4;
+		// TODO start size == (size * size) > count tetrim * 4;
+		while (size < 20)
+		{
+			board = board_create(size);
+			if (!board)
+				return (NULL);
+			if (board_solve(board, tetrim))
+				return (board);
+			board_destroy(&board);
+			size++;
+		}
+	}
+	return (NULL);
 }
 
 int				main(int argc, char **argv)
