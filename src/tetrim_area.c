@@ -6,13 +6,13 @@
 /*   By: bconchit <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/29 08:52:42 by bconchit          #+#    #+#             */
-/*   Updated: 2019/09/29 08:52:57 by bconchit         ###   ########.fr       */
+/*   Updated: 2019/09/29 09:26:13 by bconchit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "fillit.h"
 
-static void			tetrim_area(t_tetrim *self)
+void	tetrim_area(t_tetrim *self)
 {
 	int		x;
 	int		y;
