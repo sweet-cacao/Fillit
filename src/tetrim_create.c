@@ -6,7 +6,7 @@
 /*   By: bconchit <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/29 08:30:32 by bconchit          #+#    #+#             */
-/*   Updated: 2019/09/29 09:26:18 by bconchit         ###   ########.fr       */
+/*   Updated: 2019/09/29 09:30:49 by bconchit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,19 +14,19 @@
 
 t_tetrim	*tetrim_create(char *text)
 {
-	t_tetrim	*tetrim;
+	t_tetrim	*self;
 
-	tetrim = (t_tetrim *)ft_memalloc(sizeof(t_tetrim));
-	if (tetrim)
+	self = (t_tetrim *)ft_memalloc(sizeof(t_tetrim));
+	if (self)
 	{
-		if (tetrim_text(tetrim, text))
+		if (tetrim_text(self, text))
 		{
-			tetrim_area(tetrim);
-			if (tetrim_valid(tetrim))
-				return (tetrim);
+			tetrim_area(self);
+			if (tetrim_valid(self))
+				return (self);
 		}
 	}
-	if (tetrim)
-		tetrim_destroy(&tetrim);
+	if (self)
+		tetrim_destroy(&self);
 	return (NULL);
 }
