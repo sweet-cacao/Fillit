@@ -6,13 +6,14 @@
 /*   By: bconchit <bconchit@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/29 05:10:57 by bconchit          #+#    #+#             */
-/*   Updated: 2019/09/29 12:35:58 by bconchit         ###   ########.fr       */
+/*   Updated: 2019/09/29 13:25:37 by bconchit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FILLIT_H
 # define FILLIT_H
 
+# include <fcntl.h>
 # include <stdlib.h>
 # include "libft.h"
 
