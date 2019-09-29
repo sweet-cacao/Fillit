@@ -6,7 +6,7 @@
 /*   By: bconchit <bconchit@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/29 08:00:56 by bconchit          #+#    #+#             */
-/*   Updated: 2019/09/29 17:35:13 by bconchit         ###   ########.fr       */
+/*   Updated: 2019/09/29 18:05:40 by bconchit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,24 +14,24 @@
 
 static int	recursive(t_board *self, t_tetrim *tetrim, int index)
 {
-	if (self && index && tetrim)
-		return (0);
+	if (index)
+		;
 	if (tetrim == NULL)
 	 	return (1);
+
 	tetrim->y = 0 - tetrim->y0;
 	while (tetrim->y < self->size - tetrim->y1)
 	{
 		tetrim->x = 0 - tetrim->x0;
 		while (tetrim->x < self->size - tetrim->x1)
 	 	{
-	// 		if (board_check(self, tetrim))
-	// 		{
-	// 			board_paint(self, tetrim, 'A' + index);
-	// 			board_print(self);	ft_putstr("\n");
-	// 			// if (recursive(self, tetrim->next, index + 1))
-	// 			// 	return (1);
-	// 			board_paint(self, tetrim, '.');
-	// 		}
+	 		if (board_check(self, tetrim))
+	 		{
+	 			board_paint(self, tetrim, 'A' + index);
+				if (recursive(self, tetrim->next, index + 1))
+	 			 	return (1);
+	 			board_paint(self, tetrim, '.');
+	 		}
 			tetrim->x++;
 		}
 		tetrim->y++;
