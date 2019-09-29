@@ -6,12 +6,12 @@
 #    By: bconchit <bconchit@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/09/03 17:50:19 by gstarvin          #+#    #+#              #
-#    Updated: 2019/09/29 14:42:18 by bconchit         ###   ########.fr        #
+#    Updated: 2019/09/29 15:36:39 by bconchit         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME := libft.a
-SRCS := ft_strcmp.c ft_atoi.c ft_isdigit.c ft_memset.c \
+NAME = libft.a
+SRCS = ft_strcmp.c ft_atoi.c ft_isdigit.c ft_memset.c \
 		ft_strlcat.c ft_strstr.c ft_isprint.c ft_strcat.c \
 		ft_strlen.c ft_memccpy.c ft_strchr.c \
 		ft_strncat.c ft_bzero.c ft_memchr.c  \
@@ -28,8 +28,7 @@ SRCS := ft_strcmp.c ft_atoi.c ft_isdigit.c ft_memset.c \
 		ft_lstdelone.c ft_lstdel.c ft_lstadd.c ft_lstmap.c \
 		ft_lstiter.c ft_iswspace.c ft_strtrim.c ft_strjoin.c
 
-SRCS := $(addprefix src/, $(SRCS))
-OBJS := $(SRCS:%.c=%.o)
+OBJS = $(SRCS:%.c=%.o)
 
 all: $(NAME)
 
@@ -37,7 +36,7 @@ $(NAME): $(OBJS)
 	ar rc $(NAME) $(OBJS)
 	ranlib $(NAME)
 
-%.o: %.c
+%.o: src/%.c
 	gcc -Wall -Wextra -Werror -I./includes -c $< -o $@
 
 clean:
