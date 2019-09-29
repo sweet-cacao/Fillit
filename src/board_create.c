@@ -6,7 +6,7 @@
 /*   By: bconchit <bconchit@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/29 12:36:53 by bconchit          #+#    #+#             */
-/*   Updated: 2019/09/29 13:20:22 by bconchit         ###   ########.fr       */
+/*   Updated: 2019/09/29 14:02:10 by bconchit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,6 +44,7 @@ t_board			*board_create(int size)
 	self = (t_board *)ft_memalloc(sizeof(t_board));
 	if (self)
 	{
+		self->size = size;
 		self->map = map_create(size);
 		if (self->map)
 			return (self);
