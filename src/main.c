@@ -6,7 +6,7 @@
 /*   By: bconchit <bconchit@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/29 12:36:38 by bconchit          #+#    #+#             */
-/*   Updated: 2019/09/29 18:10:12 by bconchit         ###   ########.fr       */
+/*   Updated: 2019/09/29 18:17:41 by bconchit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ static t_board	*solve(t_tetrim *tetrim)
 	count = tetrim_count(tetrim);
 	if (count > 0 && count <= MAX_TET)
 	{
-		size = 4;
+		size = 2;
 		while (size * size < count * 4)
 			size++;
 		while (size <= MAX_MAP)
