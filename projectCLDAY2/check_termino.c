@@ -4,7 +4,7 @@
 
 #include "header.h"
 
-void 	check_termino(char *buff)
+void 	check_termino(char *str)
 {
 	int i;
 	int hash;
@@ -17,7 +17,7 @@ void 	check_termino(char *buff)
 	line = 2;
 	while (str[i] != '\0')
 	{
-		if (str[i] == '\n')
+		if (str[i] == '\n' && (i == 4 || i == 9 || i == 14))
 			line--;
 		if (str[i] == '.')
 			dot--;
@@ -25,6 +25,6 @@ void 	check_termino(char *buff)
 			hash--;
 		i++;
 	}
-	if (hash != 0 || dot != 0 && line != 0)
+	if (hash != 0 || dot != 0 || line != 0)
 		detect_error();
 }

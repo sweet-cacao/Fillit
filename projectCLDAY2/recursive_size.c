@@ -4,7 +4,7 @@
 
 #include "header.h"
 
-t_list go_lower(t_list term)
+t_elist		go_lower(t_elist term)
 {
 	t_list new;
 
@@ -15,7 +15,7 @@ t_list go_lower(t_list term)
 	return (term);
 }
 
-t_list go_right(t_list term)
+t_elist		go_right(t_elist term)
 {
 	term.x1++;
 	term.x2++;
@@ -37,7 +37,7 @@ void	clear_two_prev_c(char *board, char c, char a)
 	}
 }
 
-int place_board(char *board, t_list term, char c)
+int place_board(char *board, t_elist term, char c)
 {
 	int i;
 	int b;
@@ -59,26 +59,23 @@ int place_board(char *board, t_list term, char c)
 	}
 	if (b != 4)
 	{
-		clear_two_prev_c(borad, c, c - 1);
+		clear_two_prev_c(borad, c, c--);
 		return (-1);
 	}
 	return (1);
 }
 
-int 	recursive_board(char *board, char c, int size, t_list term)
+int 	recursive_board(char *board, char c, int size, t_elist term)
 {
-	t_list new;
-
-	new = term;
-	if (place_board(board, new, c) == 1)
+	if (place_board(board, term, c) == 1)
 		return (1);
-	if (place_board(board, new, c) == -1)
+	if (place_board(board, term, c) == -1)
 		return (-1);
-	recursive_board(board, c, size, go_lower(new));
-	recursive_board(board, c, size, go_right(new));
+	recursive_board(board, c, size, go_lower(term));
+	recursive_board(board, c, size, go_right(term));
 }
 
-char *recursive_size(char *board, char c, int size, t_list *term)
+char *recursive_size(char *board, char c, int size, t_elist *term)
 {
 	if (size == 0)
 		return (board);
@@ -89,5 +86,5 @@ char *recursive_size(char *board, char c, int size, t_list *term)
 	}
 	if (recursive_board(board, c, size, *term) == 1)
 		recursive_size(board, c++, size--, term++);
-	recursive_size(board, c--, size++, term--));
+	recursive_size(board, c--, size++, term--);
 }
