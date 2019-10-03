@@ -8,296 +8,298 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/sweetcacao/projectCL/cmake-build-debug"/>
+				<Option working_dir="/Users/gstarvin/proj2/projectCLDAY2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/proj2/projectCLDAY2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/proj2/projectCLDAY2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/proj2/projectCLDAY2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/proj2/projectCLDAY2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/sweetcacao/projectCL/cmake-build-debug"/>
+				<Option working_dir="/Users/gstarvin/proj2/projectCLDAY2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="projectCL">
-				<Option output="/home/sweetcacao/projectCL/cmake-build-debug/projectCL" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sweetcacao/projectCL/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/sweetcacao/projectCL/."/>
-					<Add directory="/home/sweetcacao/projectCL/Get_next_line"/>
-					<Add directory="/home/sweetcacao/projectCL/Get_next_line/libft"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 projectCL"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="projectCL/fast">
-				<Option output="/home/sweetcacao/projectCL/cmake-build-debug/projectCL" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sweetcacao/projectCL/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/sweetcacao/projectCL/."/>
-					<Add directory="/home/sweetcacao/projectCL/Get_next_line"/>
-					<Add directory="/home/sweetcacao/projectCL/Get_next_line/libft"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 projectCL/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/proj2/projectCLDAY2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/proj2/projectCLDAY2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/proj2/projectCLDAY2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/proj2/projectCLDAY2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/sweetcacao/projectCL/cmake-build-debug"/>
+				<Option working_dir="/Users/gstarvin/proj2/projectCLDAY2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sweetcacao/projectCL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/proj2/projectCLDAY2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/proj2/projectCLDAY2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/proj2/projectCLDAY2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/proj2/projectCLDAY2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="projectCL">
+				<Option output="/Users/gstarvin/proj2/projectCLDAY2/cmake-build-debug/projectCL" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gstarvin/proj2/projectCLDAY2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/gstarvin/proj2/projectCLDAY2/."/>
+					<Add directory="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line"/>
+					<Add directory="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/proj2/projectCLDAY2/cmake-build-debug/Makefile&quot;  VERBOSE=1 projectCL"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/proj2/projectCLDAY2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/proj2/projectCLDAY2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/proj2/projectCLDAY2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="projectCL/fast">
+				<Option output="/Users/gstarvin/proj2/projectCLDAY2/cmake-build-debug/projectCL" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gstarvin/proj2/projectCLDAY2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/gstarvin/proj2/projectCLDAY2/."/>
+					<Add directory="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line"/>
+					<Add directory="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/proj2/projectCLDAY2/cmake-build-debug/Makefile&quot;  VERBOSE=1 projectCL/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/proj2/projectCLDAY2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/proj2/projectCLDAY2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/proj2/projectCLDAY2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/get_next_line.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/get_next_line.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/get_next_line.h">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/get_next_line.h">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_atoi.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_atoi.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_bzero.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_bzero.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_isalnum.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_isalnum.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_isalpha.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_isalpha.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_isascii.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_isascii.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_isdigit.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_isdigit.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_isprint.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_isprint.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_iswspace.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_iswspace.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_itoa.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_itoa.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_lstadd.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_lstadd.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_lstdel.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_lstdel.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_lstdelone.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_lstdelone.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_lstiter.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_lstiter.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_lstmap.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_lstmap.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_lstnew.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_lstnew.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_memalloc.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_memalloc.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_memccpy.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_memccpy.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_memchr.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_memchr.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_memcmp.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_memcmp.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_memcpy.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_memcpy.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_memdel.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_memdel.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_memmove.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_memmove.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_memset.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_memset.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_putchar.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_putchar.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_putchar_fd.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_putchar_fd.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_putendl.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_putendl.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_putendl_fd.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_putendl_fd.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_putnbr.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_putnbr.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_putnbr_fd.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_putnbr_fd.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_putstr.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_putstr.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_putstr_fd.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_putstr_fd.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strcat.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_strcat.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strchr.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_strchr.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strclr.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_strclr.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strcmp.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_strcmp.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strcpy.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_strcpy.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strdel.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_strdel.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strdup.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_strdup.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strequ.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_strequ.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_striter.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_striter.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_striteri.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_striteri.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strjoin.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_strjoin.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strlcat.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_strlcat.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strlen.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_strlen.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strmap.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_strmap.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strmapi.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_strmapi.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strncat.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_strncat.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strncmp.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_strncmp.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strncpy.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_strncpy.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strnequ.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_strnequ.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strnew.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_strnew.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strnstr.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_strnstr.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strrchr.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_strrchr.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strsplit.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_strsplit.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strstr.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_strstr.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strsub.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_strsub.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_strtrim.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_strtrim.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_tolower.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_tolower.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/ft_toupper.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/ft_toupper.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/Get_next_line/libft/libft.h">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/Get_next_line/libft/libft.h">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/check_form.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/check_form.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/check_termino.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/check_termino.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/detect_error.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/detect_error.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/detect_termino.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/detect_termino.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/get_struct.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/get_struct.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/header.h">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/header.h">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/king_size_func_fuck.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/king_size_func_fuck.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/main.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/main.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/recursive_size.c">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/recursive_size.c">
 			<Option target="projectCL"/>
 		</Unit>
-		<Unit filename="/home/sweetcacao/projectCL/CMakeLists.txt">
+		<Unit filename="/Users/gstarvin/proj2/projectCLDAY2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

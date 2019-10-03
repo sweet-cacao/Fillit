@@ -4,30 +4,30 @@
 
 #include "header.h"
 
-int get_struct(char *str, t_elist *arr, int size)
+int get_struct(char *str, t_elist *arr, int i)
 {
-	int i;
+	int j;
 	int count;
 
 	count = 0;
-	i = 0;
+	j = 0;
 //	if (!(arr[CURRENT] = (t_elist )malloc(sizeof(t_elist))));
 //		detect_error();
-	while (str[i] != '\0')
+	while (str[j] != '\0')
 	{
-		if (str[i] == '#' && count++ == 1)
-			arr[CURRENT].x1 = i;
-		if (str[i] == '#' && count++ == 2)
-			arr[CURRENT].x2 = i;
-		if (str[i] == '#' && count++ == 3)
-			arr[CURRENT].x3 = i;
-		if (str[i] == '#' && count++ == 4)
+		if (str[j] == '#' && ++count == 1)
+			arr[i].x1 = j;
+		if (str[j] == '#' && ++count == 2)
+			arr[i].x2 = j;
+		if (str[j] == '#' && ++count == 3)
+			arr[i].x3 = j;
+		if (str[j] == '#' && ++count == 4)
 		{
-			printf("%d\n", i);
-			arr[CURRENT].x4 = i;
+			printf("%d\n", j);
+			arr[i].x4 = j;
 		}
-		i++;
+		j++;
 	}
-	check_form(arr[CURRENT]);
+	check_form(arr[i]);
 	return (1);
 }

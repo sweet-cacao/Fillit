@@ -10,7 +10,7 @@ int 	main(void)
 	t_elist		new;
 	int size;
 	int fd;
-	t_elist *arr;
+	t_elist *arr = NULL;
 
 	fd = open("file.txt", O_RDONLY);
 	detect_termino(fd, &size, arr);
