@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/gstarvin/proj2/projectCLDAY2
+/private/var/folders/zz/zyxvpxvq6csfxvn_n00019j8000_c_/T/AppTranslocation/B458A9EF-67DD-412B-89FC-5BB65DBD2F24/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/gstarvin/proj2/projectCLDAY2
 -- The C compiler identification is AppleClang 9.0.0.9000039
 -- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
 -- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -- works
