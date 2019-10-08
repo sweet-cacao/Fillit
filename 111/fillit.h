@@ -28,10 +28,29 @@ typedef struct      s_row
     struct s_list   *head;   
 }                   t_row;
 
+typedef struct		s_col
+{
+	int				size;
+	int				col;
+	struct s_list   *l;
+    struct s_list   *r;
+    struct s_list   *up;
+    struct s_list   *down;
+    struct s_list   *head;
+
+}					t_col;
+
 typedef struct	s_board
 {
 	int					size;
 	char				*map;
 }				t_board;
+
+
+typedef struct s_map
+{
+	t_col		*first_col;
+	t_numbers	*numbers;
+}				t_map;
 
 #endif
