@@ -1,0 +1,6 @@
+#ifndef NEWPROJECT111_LIBRARY_H
+#define NEWPROJECT111_LIBRARY_H
+
+void hello(void);
+
+#endif //NEWPROJECT111_LIBRARY_H

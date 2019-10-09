@@ -1,0 +1,3 @@
+/Users/gstarvin/proj2/newproject111/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/gstarvin/proj2/newproject111/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/gstarvin/proj2/newproject111/cmake-build-debug/CMakeFiles/newproject111.dir

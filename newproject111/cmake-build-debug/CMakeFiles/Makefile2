@@ -59,45 +59,45 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/gstarvin/proj2/projectCLDAY2
+CMAKE_SOURCE_DIR = /Users/gstarvin/proj2/newproject111
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/gstarvin/proj2/projectCLDAY2/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/gstarvin/proj2/newproject111/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/projectCL.dir
+# Target rules for target CMakeFiles/newproject111.dir
 
 # All Build rule for target.
-CMakeFiles/projectCL.dir/all:
-	$(MAKE) -f CMakeFiles/projectCL.dir/build.make CMakeFiles/projectCL.dir/depend
-	$(MAKE) -f CMakeFiles/projectCL.dir/build.make CMakeFiles/projectCL.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/gstarvin/proj2/projectCLDAY2/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69 "Built target projectCL"
-.PHONY : CMakeFiles/projectCL.dir/all
+CMakeFiles/newproject111.dir/all:
+	$(MAKE) -f CMakeFiles/newproject111.dir/build.make CMakeFiles/newproject111.dir/depend
+	$(MAKE) -f CMakeFiles/newproject111.dir/build.make CMakeFiles/newproject111.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/gstarvin/proj2/newproject111/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target newproject111"
+.PHONY : CMakeFiles/newproject111.dir/all
 
 # Include target in all.
-all: CMakeFiles/projectCL.dir/all
+all: CMakeFiles/newproject111.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/projectCL.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gstarvin/proj2/projectCLDAY2/cmake-build-debug/CMakeFiles 69
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/projectCL.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gstarvin/proj2/projectCLDAY2/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/projectCL.dir/rule
+CMakeFiles/newproject111.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gstarvin/proj2/newproject111/cmake-build-debug/CMakeFiles 7
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/newproject111.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gstarvin/proj2/newproject111/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/newproject111.dir/rule
 
 # Convenience name for target.
-projectCL: CMakeFiles/projectCL.dir/rule
+newproject111: CMakeFiles/newproject111.dir/rule
 
-.PHONY : projectCL
-
-# clean rule for target.
-CMakeFiles/projectCL.dir/clean:
-	$(MAKE) -f CMakeFiles/projectCL.dir/build.make CMakeFiles/projectCL.dir/clean
-.PHONY : CMakeFiles/projectCL.dir/clean
+.PHONY : newproject111
 
 # clean rule for target.
-clean: CMakeFiles/projectCL.dir/clean
+CMakeFiles/newproject111.dir/clean:
+	$(MAKE) -f CMakeFiles/newproject111.dir/build.make CMakeFiles/newproject111.dir/clean
+.PHONY : CMakeFiles/newproject111.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/newproject111.dir/clean
 
 .PHONY : clean
 

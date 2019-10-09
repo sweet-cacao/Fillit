@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/projectCL.dir/Get_next_line/get_next_line.c.o"
   "CMakeFiles/projectCL.dir/Get_next_line/libft/ft_atoi.c.o"
   "CMakeFiles/projectCL.dir/Get_next_line/libft/ft_bzero.c.o"
   "CMakeFiles/projectCL.dir/Get_next_line/libft/ft_isalnum.c.o"
@@ -59,16 +58,17 @@ file(REMOVE_RECURSE
   "CMakeFiles/projectCL.dir/Get_next_line/libft/ft_strtrim.c.o"
   "CMakeFiles/projectCL.dir/Get_next_line/libft/ft_tolower.c.o"
   "CMakeFiles/projectCL.dir/Get_next_line/libft/ft_toupper.c.o"
-  "CMakeFiles/projectCL.dir/check_form.c.o"
-  "CMakeFiles/projectCL.dir/check_termino.c.o"
-  "CMakeFiles/projectCL.dir/detect_error.c.o"
-  "CMakeFiles/projectCL.dir/detect_termino.c.o"
-  "CMakeFiles/projectCL.dir/get_struct.c.o"
-  "CMakeFiles/projectCL.dir/king_size_func_fuck.c.o"
+  "CMakeFiles/projectCL.dir/Get_next_line/get_next_line.c.o"
   "CMakeFiles/projectCL.dir/main.c.o"
+  "CMakeFiles/projectCL.dir/check_termino.c.o"
+  "CMakeFiles/projectCL.dir/detect_termino.c.o"
+  "CMakeFiles/projectCL.dir/detect_error.c.o"
+  "CMakeFiles/projectCL.dir/get_struct.c.o"
+  "CMakeFiles/projectCL.dir/check_form.c.o"
   "CMakeFiles/projectCL.dir/recursive_size.c.o"
-  "projectCL"
+  "CMakeFiles/projectCL.dir/king_size_func_fuck.c.o"
   "projectCL.pdb"
+  "projectCL"
 )
 
 # Per-language clean rules from dependency scanning.
