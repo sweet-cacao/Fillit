@@ -83,7 +83,13 @@
 		<Unit filename="/Users/gstarvin/proj2/newproject111/check_buff.c">
 			<Option target="newproject111"/>
 		</Unit>
+		<Unit filename="/Users/gstarvin/proj2/newproject111/check_paint_map.c">
+			<Option target="newproject111"/>
+		</Unit>
 		<Unit filename="/Users/gstarvin/proj2/newproject111/check_struct.c">
+			<Option target="newproject111"/>
+		</Unit>
+		<Unit filename="/Users/gstarvin/proj2/newproject111/create_map.c">
 			<Option target="newproject111"/>
 		</Unit>
 		<Unit filename="/Users/gstarvin/proj2/newproject111/fill_coordinates.c">
@@ -102,6 +108,9 @@
 			<Option target="newproject111"/>
 		</Unit>
 		<Unit filename="/Users/gstarvin/proj2/newproject111/main.c">
+			<Option target="newproject111"/>
+		</Unit>
+		<Unit filename="/Users/gstarvin/proj2/newproject111/print_map.c">
 			<Option target="newproject111"/>
 		</Unit>
 		<Unit filename="/Users/gstarvin/proj2/newproject111/read_file.c">

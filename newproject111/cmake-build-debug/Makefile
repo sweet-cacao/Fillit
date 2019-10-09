@@ -150,6 +150,33 @@ check_buff.c.s:
 	$(MAKE) -f CMakeFiles/newproject111.dir/build.make CMakeFiles/newproject111.dir/check_buff.c.s
 .PHONY : check_buff.c.s
 
+check_paint_map.o: check_paint_map.c.o
+
+.PHONY : check_paint_map.o
+
+# target to build an object file
+check_paint_map.c.o:
+	$(MAKE) -f CMakeFiles/newproject111.dir/build.make CMakeFiles/newproject111.dir/check_paint_map.c.o
+.PHONY : check_paint_map.c.o
+
+check_paint_map.i: check_paint_map.c.i
+
+.PHONY : check_paint_map.i
+
+# target to preprocess a source file
+check_paint_map.c.i:
+	$(MAKE) -f CMakeFiles/newproject111.dir/build.make CMakeFiles/newproject111.dir/check_paint_map.c.i
+.PHONY : check_paint_map.c.i
+
+check_paint_map.s: check_paint_map.c.s
+
+.PHONY : check_paint_map.s
+
+# target to generate assembly for a file
+check_paint_map.c.s:
+	$(MAKE) -f CMakeFiles/newproject111.dir/build.make CMakeFiles/newproject111.dir/check_paint_map.c.s
+.PHONY : check_paint_map.c.s
+
 check_struct.o: check_struct.c.o
 
 .PHONY : check_struct.o
@@ -176,6 +203,33 @@ check_struct.s: check_struct.c.s
 check_struct.c.s:
 	$(MAKE) -f CMakeFiles/newproject111.dir/build.make CMakeFiles/newproject111.dir/check_struct.c.s
 .PHONY : check_struct.c.s
+
+create_map.o: create_map.c.o
+
+.PHONY : create_map.o
+
+# target to build an object file
+create_map.c.o:
+	$(MAKE) -f CMakeFiles/newproject111.dir/build.make CMakeFiles/newproject111.dir/create_map.c.o
+.PHONY : create_map.c.o
+
+create_map.i: create_map.c.i
+
+.PHONY : create_map.i
+
+# target to preprocess a source file
+create_map.c.i:
+	$(MAKE) -f CMakeFiles/newproject111.dir/build.make CMakeFiles/newproject111.dir/create_map.c.i
+.PHONY : create_map.c.i
+
+create_map.s: create_map.c.s
+
+.PHONY : create_map.s
+
+# target to generate assembly for a file
+create_map.c.s:
+	$(MAKE) -f CMakeFiles/newproject111.dir/build.make CMakeFiles/newproject111.dir/create_map.c.s
+.PHONY : create_map.c.s
 
 fill_coordinates.o: fill_coordinates.c.o
 
@@ -285,6 +339,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/newproject111.dir/build.make CMakeFiles/newproject111.dir/main.c.s
 .PHONY : main.c.s
 
+print_map.o: print_map.c.o
+
+.PHONY : print_map.o
+
+# target to build an object file
+print_map.c.o:
+	$(MAKE) -f CMakeFiles/newproject111.dir/build.make CMakeFiles/newproject111.dir/print_map.c.o
+.PHONY : print_map.c.o
+
+print_map.i: print_map.c.i
+
+.PHONY : print_map.i
+
+# target to preprocess a source file
+print_map.c.i:
+	$(MAKE) -f CMakeFiles/newproject111.dir/build.make CMakeFiles/newproject111.dir/print_map.c.i
+.PHONY : print_map.c.i
+
+print_map.s: print_map.c.s
+
+.PHONY : print_map.s
+
+# target to generate assembly for a file
+print_map.c.s:
+	$(MAKE) -f CMakeFiles/newproject111.dir/build.make CMakeFiles/newproject111.dir/print_map.c.s
+.PHONY : print_map.c.s
+
 read_file.o: read_file.c.o
 
 .PHONY : read_file.o
@@ -351,9 +432,15 @@ help:
 	@echo "... check_buff.o"
 	@echo "... check_buff.i"
 	@echo "... check_buff.s"
+	@echo "... check_paint_map.o"
+	@echo "... check_paint_map.i"
+	@echo "... check_paint_map.s"
 	@echo "... check_struct.o"
 	@echo "... check_struct.i"
 	@echo "... check_struct.s"
+	@echo "... create_map.o"
+	@echo "... create_map.i"
+	@echo "... create_map.s"
 	@echo "... fill_coordinates.o"
 	@echo "... fill_coordinates.i"
 	@echo "... fill_coordinates.s"
@@ -366,6 +453,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... print_map.o"
+	@echo "... print_map.i"
+	@echo "... print_map.s"
 	@echo "... read_file.o"
 	@echo "... read_file.i"
 	@echo "... read_file.s"

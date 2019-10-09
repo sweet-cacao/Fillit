@@ -10,11 +10,11 @@ static void     fill_block(t_term **new, char block[4])
         (*new)->buff[j].y_init = block[j] / 4;
         (*new)->buff[j].x_init = block[j] % 4;
         j++;
-
     }
+
 }
 
-t_term  *create_term(char *buff)
+static t_term  *create_term(char *buff, char c)
 {
     int         i;
     int         j;
@@ -34,10 +34,11 @@ t_term  *create_term(char *buff)
         }
         i++;
     }
+    new->letter = c;
     fill_block(&new, block);
 }
 
-int    get_struct(t_term **term, char *buff)
+int    get_struct(t_term **term, char *buff, char c)
 {
     if (!(*term))
         (*term) = create_term(buff);

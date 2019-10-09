@@ -5,7 +5,7 @@ int     solve_map(t_term *term, t_map *map)
     if (term = NULL)
     {
         print_map(map);
-        return (0);
+        return (1);
     }
     term->y = 0 - term->y0;
     while (term->y < map->size - term->y1)
@@ -20,5 +20,6 @@ int     solve_map(t_term *term, t_map *map)
         }
         term->y++;
     }
+    return (0);
 }
 
