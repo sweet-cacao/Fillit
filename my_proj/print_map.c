@@ -7,7 +7,9 @@ void    print_map(t_map *map)
     i = 0;
     while (i < map->size)
     {
-        write(1, &(map->map[i]), 1);
+        ft_putstr(map->map[i]);
+        //ft_putstr("\n");
+        i++;
     }
 }
 

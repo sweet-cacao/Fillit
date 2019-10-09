@@ -5,6 +5,7 @@ static void     solver(t_term *term, int size)
     t_map *map;
 
     map = create_map(size);
+    printf("11\n");
     while (!(solve_map(term, map)))
     {
         destroy_map(&map);
@@ -18,23 +19,26 @@ int     main(int ac, char **av)
     t_term *term;
     int size;
     int num;
+    int i;
 
-    size = 1;
+    term = NULL;
     if (ac == 2)
     {
         fd = open(av[1], O_RDONLY);
         printf("%s", "here");
         read_file(fd, &term);
         close(fd);
-        printf("here");
+        i = 0;
+
+        printf("#1\n");
+        printf("here\n");
         num = count_term(term);
         printf("%d", num);
-    /*    while (size * size < num * 4)
+        size = 2;
+        while (size * size < num * 4)
             size++;
         solver(term, size);
-*/
     }
     else
         write(1, "fillit file\n", 12);
 }
-

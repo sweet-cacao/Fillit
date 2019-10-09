@@ -5,24 +5,22 @@ t_map   *create_map(int size)
     int i;
     int j;
     t_map *map;
-    int length;
 
     i = 0;
-    if (!(map = (t_map *)ft_memalloc(sizeof (t_map *))))
+    if (!(map = (t_map *)ft_memalloc(sizeof (t_map))))
         return (0);
+    map->map = (char **)malloc(sizeof(char *) * size);
     map->size = size;
-    length = size + 1;
     while (i < size)
     {
         j = 0;
-        while (j < length)
+        map->map[i] = ft_strnew(size + 1);
+        while (j < size)
         {
-            if ((j % size) == 0)
-                map->map[i][j] = '\n';
-            else
-                map->map[i][j] = '.';
+            map->map[i][j] = '.';
             j++;
         }
+        map->map[i][size] = '\n';
         i++;
     }
     return (map);

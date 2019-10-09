@@ -15,7 +15,15 @@ int     count_term(t_term *term)
 
 void    destroy_map(t_map **map)
 {
+    int i;
+
+    i = 0;
+    while(i < (*map)->size)
+    {
+        free((*map)->map[i]);
+        i++;
+    }
     free(*map);
-    free(map);
+    *map = NULL;
 }
 

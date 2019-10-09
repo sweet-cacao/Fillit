@@ -15,12 +15,14 @@ int     read_file(int fd, t_term **term)
         {
             if (!(get_struct(&(*term), buff, c)))
                 return (0);
-            fill_coordinates(&(*term));
+            printf("char = %c\n", (*term)->letter);
+
             c++;
         }
         else
             return (0);
     }
+
     return (1);
 }
 

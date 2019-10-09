@@ -43,7 +43,7 @@ int     get_struct(t_term **term, char *buff, char c);
 int     check_buff(char *buff, int ret);
 int     check_struct(t_term *term);
 int     read_file(int fd, t_term **term);
-void    fill_coordinates(t_term **term);
+void    fill_coordinates(t_term *term);
 void    destroy_map(t_map **map);
 int     count_term(t_term *term);
 
