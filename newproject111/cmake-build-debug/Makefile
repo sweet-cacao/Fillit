@@ -150,6 +150,60 @@ check_buff.c.s:
 	$(MAKE) -f CMakeFiles/newproject111.dir/build.make CMakeFiles/newproject111.dir/check_buff.c.s
 .PHONY : check_buff.c.s
 
+check_struct.o: check_struct.c.o
+
+.PHONY : check_struct.o
+
+# target to build an object file
+check_struct.c.o:
+	$(MAKE) -f CMakeFiles/newproject111.dir/build.make CMakeFiles/newproject111.dir/check_struct.c.o
+.PHONY : check_struct.c.o
+
+check_struct.i: check_struct.c.i
+
+.PHONY : check_struct.i
+
+# target to preprocess a source file
+check_struct.c.i:
+	$(MAKE) -f CMakeFiles/newproject111.dir/build.make CMakeFiles/newproject111.dir/check_struct.c.i
+.PHONY : check_struct.c.i
+
+check_struct.s: check_struct.c.s
+
+.PHONY : check_struct.s
+
+# target to generate assembly for a file
+check_struct.c.s:
+	$(MAKE) -f CMakeFiles/newproject111.dir/build.make CMakeFiles/newproject111.dir/check_struct.c.s
+.PHONY : check_struct.c.s
+
+fill_coordinates.o: fill_coordinates.c.o
+
+.PHONY : fill_coordinates.o
+
+# target to build an object file
+fill_coordinates.c.o:
+	$(MAKE) -f CMakeFiles/newproject111.dir/build.make CMakeFiles/newproject111.dir/fill_coordinates.c.o
+.PHONY : fill_coordinates.c.o
+
+fill_coordinates.i: fill_coordinates.c.i
+
+.PHONY : fill_coordinates.i
+
+# target to preprocess a source file
+fill_coordinates.c.i:
+	$(MAKE) -f CMakeFiles/newproject111.dir/build.make CMakeFiles/newproject111.dir/fill_coordinates.c.i
+.PHONY : fill_coordinates.c.i
+
+fill_coordinates.s: fill_coordinates.c.s
+
+.PHONY : fill_coordinates.s
+
+# target to generate assembly for a file
+fill_coordinates.c.s:
+	$(MAKE) -f CMakeFiles/newproject111.dir/build.make CMakeFiles/newproject111.dir/fill_coordinates.c.s
+.PHONY : fill_coordinates.c.s
+
 get_struct.o: get_struct.c.o
 
 .PHONY : get_struct.o
@@ -297,6 +351,12 @@ help:
 	@echo "... check_buff.o"
 	@echo "... check_buff.i"
 	@echo "... check_buff.s"
+	@echo "... check_struct.o"
+	@echo "... check_struct.i"
+	@echo "... check_struct.s"
+	@echo "... fill_coordinates.o"
+	@echo "... fill_coordinates.i"
+	@echo "... fill_coordinates.s"
 	@echo "... get_struct.o"
 	@echo "... get_struct.i"
 	@echo "... get_struct.s"

@@ -9,7 +9,8 @@ int     read_file(int fd, t_term **term)
     {
         if (check_buff(buff, ret))
         {
-            get_struct(&term, buff);
+            if (!(get_struct(&term, buff)))
+                return (0);
             fill_coordinates(&term);
         }
         else

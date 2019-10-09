@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/gstarvin/proj2/newproject111/check_buff.c" "/Users/gstarvin/proj2/newproject111/cmake-build-debug/CMakeFiles/newproject111.dir/check_buff.c.o"
+  "/Users/gstarvin/proj2/newproject111/check_struct.c" "/Users/gstarvin/proj2/newproject111/cmake-build-debug/CMakeFiles/newproject111.dir/check_struct.c.o"
+  "/Users/gstarvin/proj2/newproject111/fill_coordinates.c" "/Users/gstarvin/proj2/newproject111/cmake-build-debug/CMakeFiles/newproject111.dir/fill_coordinates.c.o"
   "/Users/gstarvin/proj2/newproject111/get_struct.c" "/Users/gstarvin/proj2/newproject111/cmake-build-debug/CMakeFiles/newproject111.dir/get_struct.c.o"
   "/Users/gstarvin/proj2/newproject111/library.c" "/Users/gstarvin/proj2/newproject111/cmake-build-debug/CMakeFiles/newproject111.dir/library.c.o"
   "/Users/gstarvin/proj2/newproject111/main.c" "/Users/gstarvin/proj2/newproject111/cmake-build-debug/CMakeFiles/newproject111.dir/main.c.o"

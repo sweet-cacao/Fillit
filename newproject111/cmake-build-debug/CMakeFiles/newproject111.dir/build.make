@@ -135,6 +135,32 @@ CMakeFiles/newproject111.dir/get_struct.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/newproject111.dir/get_struct.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gstarvin/proj2/newproject111/get_struct.c -o CMakeFiles/newproject111.dir/get_struct.c.s
 
+CMakeFiles/newproject111.dir/check_struct.c.o: CMakeFiles/newproject111.dir/flags.make
+CMakeFiles/newproject111.dir/check_struct.c.o: ../check_struct.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/proj2/newproject111/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/newproject111.dir/check_struct.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/newproject111.dir/check_struct.c.o   -c /Users/gstarvin/proj2/newproject111/check_struct.c
+
+CMakeFiles/newproject111.dir/check_struct.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/newproject111.dir/check_struct.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/gstarvin/proj2/newproject111/check_struct.c > CMakeFiles/newproject111.dir/check_struct.c.i
+
+CMakeFiles/newproject111.dir/check_struct.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/newproject111.dir/check_struct.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gstarvin/proj2/newproject111/check_struct.c -o CMakeFiles/newproject111.dir/check_struct.c.s
+
+CMakeFiles/newproject111.dir/fill_coordinates.c.o: CMakeFiles/newproject111.dir/flags.make
+CMakeFiles/newproject111.dir/fill_coordinates.c.o: ../fill_coordinates.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/proj2/newproject111/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/newproject111.dir/fill_coordinates.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/newproject111.dir/fill_coordinates.c.o   -c /Users/gstarvin/proj2/newproject111/fill_coordinates.c
+
+CMakeFiles/newproject111.dir/fill_coordinates.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/newproject111.dir/fill_coordinates.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/gstarvin/proj2/newproject111/fill_coordinates.c > CMakeFiles/newproject111.dir/fill_coordinates.c.i
+
+CMakeFiles/newproject111.dir/fill_coordinates.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/newproject111.dir/fill_coordinates.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gstarvin/proj2/newproject111/fill_coordinates.c -o CMakeFiles/newproject111.dir/fill_coordinates.c.s
+
 # Object files for target newproject111
 newproject111_OBJECTS = \
 "CMakeFiles/newproject111.dir/library.c.o" \
@@ -142,7 +168,9 @@ newproject111_OBJECTS = \
 "CMakeFiles/newproject111.dir/main.c.o" \
 "CMakeFiles/newproject111.dir/solve_map.c.o" \
 "CMakeFiles/newproject111.dir/check_buff.c.o" \
-"CMakeFiles/newproject111.dir/get_struct.c.o"
+"CMakeFiles/newproject111.dir/get_struct.c.o" \
+"CMakeFiles/newproject111.dir/check_struct.c.o" \
+"CMakeFiles/newproject111.dir/fill_coordinates.c.o"
 
 # External object files for target newproject111
 newproject111_EXTERNAL_OBJECTS =
@@ -153,9 +181,11 @@ libnewproject111.a: CMakeFiles/newproject111.dir/main.c.o
 libnewproject111.a: CMakeFiles/newproject111.dir/solve_map.c.o
 libnewproject111.a: CMakeFiles/newproject111.dir/check_buff.c.o
 libnewproject111.a: CMakeFiles/newproject111.dir/get_struct.c.o
+libnewproject111.a: CMakeFiles/newproject111.dir/check_struct.c.o
+libnewproject111.a: CMakeFiles/newproject111.dir/fill_coordinates.c.o
 libnewproject111.a: CMakeFiles/newproject111.dir/build.make
 libnewproject111.a: CMakeFiles/newproject111.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/gstarvin/proj2/newproject111/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C static library libnewproject111.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/gstarvin/proj2/newproject111/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C static library libnewproject111.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/newproject111.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/newproject111.dir/link.txt --verbose=$(VERBOSE)
 

@@ -5,9 +5,15 @@
 #ifndef NEWPROJECT111_FILLIT_H
 #define NEWPROJECT111_FILLIT_H
 
+typedef struct          s_coord
+{
+    int                 x_init;
+    int                 y_init;
+}                       t_coord;
+
 typedef struct          s_term
 {
-    char                buff[8];
+    t_coord             buff[4];
     char                letter;
     int                 x;
     int                 y;

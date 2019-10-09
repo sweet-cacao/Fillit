@@ -1,15 +1,53 @@
 #include "fillit.h"
 
-void    get_struct(t_term **term, char *buff)
+static void     fill_block(t_term **new, char block[4])
 {
-    int i;
+    int         j;
 
-    i = 0;
-    if (!term)
-        term = (t_term *)memalloc(sizeof(t_term *));
-    while (buff[i])
+    j = 0;
+    while (j < 4)
     {
-        if (buff[i] == "")
+        (*new)->buff[j].y_init = block[j] / 4;
+        (*new)->buff[j].x_init = block[j] % 4;
+        j++;
+
     }
 }
 
+t_term  *create_term(char *buff)
+{
+    int         i;
+    int         j;
+    t_term      *new;
+    char        block[4];
+
+    k = 0;
+    j = 0;
+    i = 0;
+    new = (t_term *)memalloc(sizeof(t_term *));
+    while (buff[i])
+    {
+        if (buff[i] == '#')
+        {
+            block[j] = i;
+            j++;
+        }
+        i++;
+    }
+    fill_block(&new, block);
+}
+
+int    get_struct(t_term **term, char *buff)
+{
+    if (!(*term))
+        (*term) = create_term(buff);
+    else
+    {
+        while (*term)
+            (*term) = (*term)->next;
+        (*term) =  create_term(buff);
+    }
+    if (!(check_struct(*term)))
+        return (0);
+    return (1);
+}
