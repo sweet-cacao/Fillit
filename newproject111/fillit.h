@@ -4,6 +4,9 @@
 
 #ifndef NEWPROJECT111_FILLIT_H
 #define NEWPROJECT111_FILLIT_H
+# include <unistd.h>
+# include <stdlib.h>
+# include <fcntl.h>
 
 typedef struct          s_coord
 {
@@ -39,4 +42,7 @@ int     check_buff(char *buff, int ret);
 int     check_struct(t_term *term);
 int     read_file(int fd, t_term **term);
 void    fill_coordinates(t_term **term);
+void    destroy_map(t_map **map);
+int     count_term(t_term *term);
+
 #endif //NEWPROJECT111_FILLIT_H

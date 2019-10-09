@@ -204,6 +204,33 @@ check_struct.c.s:
 	$(MAKE) -f CMakeFiles/newproject111.dir/build.make CMakeFiles/newproject111.dir/check_struct.c.s
 .PHONY : check_struct.c.s
 
+count_term.o: count_term.c.o
+
+.PHONY : count_term.o
+
+# target to build an object file
+count_term.c.o:
+	$(MAKE) -f CMakeFiles/newproject111.dir/build.make CMakeFiles/newproject111.dir/count_term.c.o
+.PHONY : count_term.c.o
+
+count_term.i: count_term.c.i
+
+.PHONY : count_term.i
+
+# target to preprocess a source file
+count_term.c.i:
+	$(MAKE) -f CMakeFiles/newproject111.dir/build.make CMakeFiles/newproject111.dir/count_term.c.i
+.PHONY : count_term.c.i
+
+count_term.s: count_term.c.s
+
+.PHONY : count_term.s
+
+# target to generate assembly for a file
+count_term.c.s:
+	$(MAKE) -f CMakeFiles/newproject111.dir/build.make CMakeFiles/newproject111.dir/count_term.c.s
+.PHONY : count_term.c.s
+
 create_map.o: create_map.c.o
 
 .PHONY : create_map.o
@@ -438,6 +465,9 @@ help:
 	@echo "... check_struct.o"
 	@echo "... check_struct.i"
 	@echo "... check_struct.s"
+	@echo "... count_term.o"
+	@echo "... count_term.i"
+	@echo "... count_term.s"
 	@echo "... create_map.o"
 	@echo "... create_map.i"
 	@echo "... create_map.s"

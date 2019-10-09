@@ -7,8 +7,8 @@ static void     solver(t_term *term, int size)
     map = create_map(size);
     while (!(solve_map(term, map)))
     {
-        destroy_map(map);
-        solver(term, size++)
+        destroy_map(&map);
+        solver(term, size++);
     }
 }
 
@@ -22,14 +22,14 @@ int     main(int ac, char **av)
     size = 1;
     if (ac == 2)
     {
-        fd = open(str, O_RDONLY);
+        fd = open(av[1], O_RDONLY);
         read_file(fd, &term);
-        num = count_term(t_term);
+        num = count_term(term);
         while (size * size < num * 4)
             size++;
         solver(term, size);
     }
     else
-        putendl("fillit file");
+        write(1, "fillit file\n", 12);
 }
 

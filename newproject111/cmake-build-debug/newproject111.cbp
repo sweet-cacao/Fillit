@@ -89,6 +89,9 @@
 		<Unit filename="/Users/gstarvin/proj2/newproject111/check_struct.c">
 			<Option target="newproject111"/>
 		</Unit>
+		<Unit filename="/Users/gstarvin/proj2/newproject111/count_term.c">
+			<Option target="newproject111"/>
+		</Unit>
 		<Unit filename="/Users/gstarvin/proj2/newproject111/create_map.c">
 			<Option target="newproject111"/>
 		</Unit>

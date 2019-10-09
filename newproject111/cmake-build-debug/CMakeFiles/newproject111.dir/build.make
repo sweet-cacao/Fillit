@@ -200,6 +200,19 @@ CMakeFiles/newproject111.dir/print_map.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/newproject111.dir/print_map.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gstarvin/proj2/newproject111/print_map.c -o CMakeFiles/newproject111.dir/print_map.c.s
 
+CMakeFiles/newproject111.dir/count_term.c.o: CMakeFiles/newproject111.dir/flags.make
+CMakeFiles/newproject111.dir/count_term.c.o: ../count_term.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/proj2/newproject111/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/newproject111.dir/count_term.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/newproject111.dir/count_term.c.o   -c /Users/gstarvin/proj2/newproject111/count_term.c
+
+CMakeFiles/newproject111.dir/count_term.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/newproject111.dir/count_term.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/gstarvin/proj2/newproject111/count_term.c > CMakeFiles/newproject111.dir/count_term.c.i
+
+CMakeFiles/newproject111.dir/count_term.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/newproject111.dir/count_term.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gstarvin/proj2/newproject111/count_term.c -o CMakeFiles/newproject111.dir/count_term.c.s
+
 # Object files for target newproject111
 newproject111_OBJECTS = \
 "CMakeFiles/newproject111.dir/library.c.o" \
@@ -212,7 +225,8 @@ newproject111_OBJECTS = \
 "CMakeFiles/newproject111.dir/fill_coordinates.c.o" \
 "CMakeFiles/newproject111.dir/check_paint_map.c.o" \
 "CMakeFiles/newproject111.dir/create_map.c.o" \
-"CMakeFiles/newproject111.dir/print_map.c.o"
+"CMakeFiles/newproject111.dir/print_map.c.o" \
+"CMakeFiles/newproject111.dir/count_term.c.o"
 
 # External object files for target newproject111
 newproject111_EXTERNAL_OBJECTS =
@@ -228,9 +242,10 @@ libnewproject111.a: CMakeFiles/newproject111.dir/fill_coordinates.c.o
 libnewproject111.a: CMakeFiles/newproject111.dir/check_paint_map.c.o
 libnewproject111.a: CMakeFiles/newproject111.dir/create_map.c.o
 libnewproject111.a: CMakeFiles/newproject111.dir/print_map.c.o
+libnewproject111.a: CMakeFiles/newproject111.dir/count_term.c.o
 libnewproject111.a: CMakeFiles/newproject111.dir/build.make
 libnewproject111.a: CMakeFiles/newproject111.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/gstarvin/proj2/newproject111/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C static library libnewproject111.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/gstarvin/proj2/newproject111/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking C static library libnewproject111.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/newproject111.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/newproject111.dir/link.txt --verbose=$(VERBOSE)
 

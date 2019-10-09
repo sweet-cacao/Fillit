@@ -10,6 +10,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/newproject111.dir/check_paint_map.c.o"
   "CMakeFiles/newproject111.dir/create_map.c.o"
   "CMakeFiles/newproject111.dir/print_map.c.o"
+  "CMakeFiles/newproject111.dir/count_term.c.o"
   "libnewproject111.pdb"
   "libnewproject111.a"
 )

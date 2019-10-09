@@ -12,9 +12,9 @@ int     read_file(int fd, t_term **term)
     {
         if (check_buff(buff, ret))
         {
-            if (!(get_struct(&term, buff, c)))
+            if (!(get_struct(&(*term), buff, c)))
                 return (0);
-            fill_coordinates(&term);
+            fill_coordinates(&(*term));
             c++;
         }
         else
