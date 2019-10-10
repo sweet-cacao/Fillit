@@ -11,12 +11,10 @@ int     read_file(int fd, t_term **term)
     while ((ret = read(fd, buff, 21)) > 0)
     {
         buff[ret] = '\0';
-        if (printf("valid of buff = %d\n", check_buff(buff, ret)))
+        if (check_buff(buff, ret))
         {
             if (!(get_struct(&(*term), buff, c)))
                 return (0);
-            printf("char = %c\n", (*term)->letter);
-
             c++;
         }
         else

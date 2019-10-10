@@ -25,15 +25,10 @@ int     main(int ac, char **av)
     if (ac == 2)
     {
         fd = open(av[1], O_RDONLY);
-        printf("%s", "here");
         read_file(fd, &term);
         close(fd);
         i = 0;
-
-        printf("#1\n");
-        printf("here\n");
         num = count_term(term);
-        printf("%d", num);
         size = 2;
         while (size * size < num * 4)
             size++;
