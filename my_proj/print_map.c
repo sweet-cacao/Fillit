@@ -1,14 +1,25 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   print_map.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: gstarvin <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/10/10 16:41:13 by gstarvin          #+#    #+#             */
+/*   Updated: 2019/10/10 18:30:14 by gstarvin         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "fillit.h"
 
-void    print_map(t_map *map)
+void	print_map(t_map *map)
 {
-    int i;
+	int i;
 
-    i = 0;
-    while (i < map->size)
-    {
-        ft_putstr(map->map[i]);
-        i++;
-    }
+	i = 0;
+	while (i < map->size)
+	{
+		ft_putstr(map->map[i]);
+		i++;
+	}
 }
-

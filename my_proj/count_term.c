@@ -1,18 +1,26 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   count_term.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: gstarvin <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/10/10 16:38:41 by gstarvin          #+#    #+#             */
+/*   Updated: 2019/10/10 18:37:29 by gstarvin         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "fillit.h"
 
-int     count_term(t_term *term)
+int		count_term(t_term *term)
 {
-    int i;
+	int i;
 
-    i = 0;
-    while (term)
-    {
-        i++;
-        term = term->next;
-    }
-    return (i);
+	i = 0;
+	while (term)
+	{
+		i++;
+		term = term->next;
+	}
+	return (i);
 }
-
-
-
-

@@ -1,6 +1,6 @@
 NAME = fillit
 
-SRCS = count_term.c create_map.c main.c check_buff.c fill_coordinates.c print_map.c check_paint_map.c read_file.c check_struct.c get_struct.c solve_map.c
+SRCS = count_term.c create_map.c main.c check_buff.c fill_coordinates.c print_map.c check_paint_map.c read_file.c check_struct.c get_struct.c solve_map.c destroy_map.c
 
 OBJS = $(SRCS:%.c=%.o)
 
