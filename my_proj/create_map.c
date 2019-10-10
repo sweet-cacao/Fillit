@@ -6,7 +6,7 @@
 /*   By: gstarvin <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/10 16:38:58 by gstarvin          #+#    #+#             */
-/*   Updated: 2019/10/10 18:40:52 by gstarvin         ###   ########.fr       */
+/*   Updated: 2019/10/10 21:06:31 by gstarvin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,12 +21,14 @@ t_map	*create_map(int size)
 	i = 0;
 	if (!(map = (t_map *)ft_memalloc(sizeof(t_map))))
 		return (0);
-	map->map = (char **)malloc(sizeof(char *) * size);
+	if (!(map->map = (char **)malloc(sizeof(char *) * size)))
+		return (0);
 	map->size = size;
 	while (i < size)
 	{
 		j = 0;
-		map->map[i] = ft_strnew(size + 1);
+		if (!(map->map[i] = ft_strnew(size + 1)))
+			return (0);
 		while (j < size)
 		{
 			map->map[i][j] = '.';

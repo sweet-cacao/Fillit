@@ -1,28 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   destroy_map.c                                      :+:      :+:    :+:   */
+/*   delete_struct.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: gstarvin <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/10/10 16:39:09 by gstarvin          #+#    #+#             */
-/*   Updated: 2019/10/10 21:07:39 by gstarvin         ###   ########.fr       */
+/*   Created: 2019/10/10 20:35:24 by gstarvin          #+#    #+#             */
+/*   Updated: 2019/10/10 21:23:36 by gstarvin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "fillit.h"
 
-void	destroy_map(t_map **map)
+void	delete_struct(t_term **term)
 {
-	int i;
-
-	i = 0;
-	while (i < (*map)->size)
+	while (*term)
 	{
-		free((*map)->map[i]);
-		i++;
+		free(*term);
+		(*term) = (*term)->next;
 	}
-	free((*map)->map);
-	free(*map);
-	*map = NULL;
+	*term = NULL;
 }

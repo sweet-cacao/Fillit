@@ -6,7 +6,7 @@
 /*   By: gstarvin <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/10 16:40:57 by gstarvin          #+#    #+#             */
-/*   Updated: 2019/10/10 19:33:59 by gstarvin         ###   ########.fr       */
+/*   Updated: 2019/10/10 21:11:23 by gstarvin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,6 +44,7 @@ int				main(int ac, char **av)
 		fd = open(av[1], O_RDONLY);
 		if (!(read_file(fd, &term)))
 		{
+			delete_struct(&term);
 			ft_putendl("error");
 			return (0);
 		}
@@ -54,6 +55,7 @@ int				main(int ac, char **av)
 		while (size * size < num * 4)
 			size++;
 		solver(term, size);
+		delete_struct(&term);
 	}
 	else
 		write(1, "fillit file\n", 12);

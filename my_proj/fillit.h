@@ -6,7 +6,7 @@
 /*   By: gstarvin <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/10 16:39:46 by gstarvin          #+#    #+#             */
-/*   Updated: 2019/10/10 18:39:37 by gstarvin         ###   ########.fr       */
+/*   Updated: 2019/10/10 21:01:21 by gstarvin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,5 +53,6 @@ int					read_file(int fd, t_term **term);
 void				fill_coordinates(t_term *term);
 void				destroy_map(t_map **map);
 int					count_term(t_term *term);
+void				delete_struct(t_term **term);
 
 #endif
